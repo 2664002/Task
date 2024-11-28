@@ -101,9 +101,7 @@ project/
 ├── train.py                   # Kafka producer fetching data from MySQL
 ├── transaction_producer.py    # Model training script
 ├── transaction_consumer.py    # Kafka consumer for real-time scoring
-├── transactions.csv           # Sample transaction dataset
-├── payment_scoring_model.pkl  # Trained Random Forest model
-├── xgboost_model.pkl          # Trained XGBoost model
+├── transaction.csv           # Sample transaction dataset
 ├── README.md                  # Documentation
 
 # Future Enhancements
