@@ -8,7 +8,7 @@ train.py: Fetches transaction data from a MySQL database and publishes it to a K
 transaction_producer.py: Trains a fraud detection model using historical transaction data and saves the trained model for scoring.
 transaction_consumer.py: Consumes real-time transaction data from Kafka, uses the trained model to predict fraud, and outputs predictions for further use.
 # Full Dataset
-The full `transactions.csv` dataset is too large to include in this repository. You can download it (Here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)).
+The full `transactions.csv` dataset is too large to include in this repository. You can download it from here(https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)).
 
 Files and Descriptions
 1. train.py
