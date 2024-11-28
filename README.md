@@ -7,6 +7,9 @@ The system consists of three key scripts:
 train.py: Fetches transaction data from a MySQL database and publishes it to a Kafka topic.
 transaction_producer.py: Trains a fraud detection model using historical transaction data and saves the trained model for scoring.
 transaction_consumer.py: Consumes real-time transaction data from Kafka, uses the trained model to predict fraud, and outputs predictions for further use.
+# Full Dataset
+The full `transactions.csv` dataset is too large to include in this repository. You can download it [here](https://link-to-your-file).
+
 Files and Descriptions
 1. train.py
 This script acts as the Kafka Producer that fetches historical transaction data from MySQL and publishes it to a Kafka topic for real-time processing.
@@ -101,7 +104,7 @@ project/
 ├── train.py                   # Kafka producer fetching data from MySQL
 ├── transaction_producer.py    # Model training script
 ├── transaction_consumer.py    # Kafka consumer for real-time scoring
-├── transaction.csv           # Sample transaction dataset
+├── transactionn.csv           # Sample transaction dataset
 ├── README.md                  # Documentation
 
 # Future Enhancements
